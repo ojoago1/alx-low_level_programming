@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-*main - entry point
-*
-*Description: a program that prints all possible different combinations of two digits
-*Return: 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success/correct)
+ */
+
 int main(void)
 {
 	int i;
@@ -20,9 +20,7 @@ int main(void)
 				putchar(j);
 				if (j == 57 && i == 56)
 				{
-
 					break
-
 						;
 				}
 				putchar(',');

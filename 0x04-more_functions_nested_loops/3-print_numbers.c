@@ -1,17 +1,22 @@
 #include "main.h"
-
 /**
- * print_numbers - prints number
- */
-
+ * print_numbers - prints numbers
+ *
+ * Return:0
+ *
+*/
 void print_numbers(void)
 {
-	char i = 0;
+	char n = 0;
 
-	while (i <= 9)
+
+	while (n <= 9)
+
 	{
-		_putchar('0' + i);
-		i++;
+		_putchar('0' + n);
+
+		n++;
 	}
 	_putchar('\n');
+
 }

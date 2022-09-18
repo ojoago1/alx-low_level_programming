@@ -23,8 +23,8 @@ void print_triangle(int size)
 			ii++;
 		}
 		_putchar('\n');
-		i++
+		i++;
 	}
-	if (i == 0)
+	if (i == 1)
 		_putchar('\n');
 }

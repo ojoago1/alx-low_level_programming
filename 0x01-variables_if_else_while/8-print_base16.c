@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-* main - print if the number is postive, zero, or negative
+* main - prints all numbers of base 10 in lowercase
 *
 * Description: using the main function
-* this program prints "Programming is positive, zero, or negative
+* this program prints all numbers of base 10 in lower case
 * Return: 0
 */
 int main(void)
